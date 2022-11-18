@@ -58,9 +58,9 @@ Null values in column children were replaced by the mean of the column.
 Changed data type of children, company, agent to int type.
 
 Changed data type of reservation_status_date to date type.
-##(4) Removing outliers
+## (4) Removing outliers
 One outlier was found in the adr column. Simply dropped it.
-##(5) Creating new columns
+## (5) Creating new columns
 Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 
 Created new column total_people by adding adults+children+babies.
